@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Lapangan Olah Raga Jl. ML. Wiratno.kml</name>
+	<Style id="sn_ylw-pushpin6">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0d36b0</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>427fffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0d36b0</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>427fffff</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Lapangan Olah Raga Jl. ML. Wiratno</name>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						109.0032241219241,-7.731585736690026,0 109.0032183977375,-7.731713736371259,0 109.0032267405919,-7.731798293945239,0 109.0032383109468,-7.731874280424286,0 109.0032691920282,-7.731877021807092,0 109.003271547351,-7.731929481209902,0 109.0036198608714,-7.73192948275724,0 109.0036191875195,-7.731833953820489,0 109.0036212799915,-7.731701492144463,0 109.0036257290187,-7.731603727877762,0 109.0032576759586,-7.731584107253986,0 109.0032241219241,-7.731585736690026,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

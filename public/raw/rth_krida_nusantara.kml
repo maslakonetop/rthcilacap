@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>RTH Krida Nusantara Jalan Tentara Pelajar.kml</name>
+	<Style id="sn_ylw-pushpin6">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0d36b0</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>427fffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0d36b0</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>427fffff</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>RTH Krida Nusantara Jalan Tentara Pelajar</name>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						109.0394161773449,-7.684685946587598,0 109.039552315721,-7.684590623762271,0 109.039737696113,-7.684478372879376,0 109.039778735797,-7.684431168650513,0 109.0398489691094,-7.6844143446032,0 109.0398832165166,-7.684360451149484,0 109.0401176890415,-7.684186859344364,0 109.0400714469345,-7.684123153703972,0 109.0399746564054,-7.684004229820784,0 109.0398884194372,-7.683888044761129,0 109.0398450671103,-7.683806327679354,0 109.0397630743983,-7.683685708635704,0 109.0395378525675,-7.683377174265388,0 109.0394612836557,-7.683420205581214,0 109.0388082634687,-7.683829986768158,0 109.0394161773449,-7.684685946587598,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

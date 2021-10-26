@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>RTH Bluemoon pinggir rel selatan.kml</name>
+	<StyleMap id="msn_ylw-pushpin7">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin7</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ylw-pushpin7">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>427fffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin5">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0000aa</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>427fffff</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>RTH Bluemoon pinggir rel selatan</name>
+		<styleUrl>#msn_ylw-pushpin7</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						109.0285896474025,-7.697435125147814,0 109.0286411019365,-7.697362037688791,0 109.0286939322914,-7.697307108361803,0 109.0287691566783,-7.697235509496447,0 109.0288948061946,-7.697103882034802,0 109.0289446453269,-7.697068505562641,0 109.0290001882287,-7.696996218929113,0 109.0290072157896,-7.696930205895368,0 109.0289630983808,-7.69691491922527,0 109.028923727365,-7.696873827471948,0 109.02889241285,-7.69685433850779,0 109.0288324220114,-7.696898971015207,0 109.0287861852055,-7.69694380027583,0 109.0287211453512,-7.696997439153678,0 109.0286794609778,-7.697056712113419,0 109.0286411368236,-7.697099001545238,0 109.028587266828,-7.697144557371905,0 109.0285520698334,-7.697181694137809,0 109.0285078492194,-7.697223434980017,0 109.028429650306,-7.697312113126728,0 109.0283695460777,-7.697393621788939,0 109.0285332733162,-7.697516398315851,0 109.0285896474025,-7.697435125147814,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>

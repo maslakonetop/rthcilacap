@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>RTH Pojok Lapangan Kec. Cilacap Selatan.kml</name>
+	<Style id="sn_ylw-pushpin6">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0d36b0</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>427fffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin6</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ylw-pushpin">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+		<LineStyle>
+			<color>ff0d36b0</color>
+			<width>5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>427fffff</color>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>RTH Pojok Lapangan Kec. Cilacap Selatan</name>
+		<styleUrl>#msn_ylw-pushpin0</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						109.0166366739276,-7.72251797747182,0 109.0166441274895,-7.722430707198217,0 109.0165218313452,-7.7224268935772,0 109.0164647317935,-7.722429640583859,0 109.0164243069604,-7.722439867663767,0 109.016365265822,-7.722437939041867,0 109.0163350927927,-7.722419700400426,0 109.0162840345735,-7.722428638852893,0 109.0162726303874,-7.72243669975245,0 109.0162459069107,-7.722448117913971,0 109.0161599634516,-7.722449483828249,0 109.0161335235315,-7.722449839367862,0 109.016059936952,-7.722452379100692,0 109.0160033205295,-7.722457772738741,0 109.0160017974746,-7.722501783587989,0 109.0160030351443,-7.722545793299536,0 109.0161195085337,-7.722541564881181,0 109.0161507874034,-7.722576636978691,0 109.0162478810866,-7.722577898672421,0 109.0163177247075,-7.72257396486155,0 109.016333077783,-7.722553786115379,0 109.0164092615141,-7.722551079632931,0 109.0164699076447,-7.722545734285098,0 109.0164727018848,-7.722526744845094,0 109.0166366739276,-7.72251797747182,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
