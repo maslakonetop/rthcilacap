@@ -15,7 +15,10 @@ class CreateKecamatansTable extends Migration
     {
         Schema::create('kecamatans', function (Blueprint $table) {
             $table->id();
-            $table->text('nama_kecamatan', 50);
+            $table->string('nametosearch');
+            $table->string('nama_kecamatan');
+            $table->double('luas', 10, 2);
+            $table->text('file_kml');
             $table->timestamps();
         });
     }

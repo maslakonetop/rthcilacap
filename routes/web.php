@@ -1,19 +1,20 @@
 <?php
 
+use App\Models\Datarth;
 use App\Models\Jenisrth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MapController;
 use App\Http\Controllers\DesaController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\LoginController;
+use App\Http\Controllers\HitungController;
 use App\Http\Controllers\BerandaController;
 use App\Http\Controllers\DatarthController;
 use App\Http\Controllers\JenisrthController;
+use App\Http\Controllers\RthModelController;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\KecamatanController;
-use App\Http\Controllers\RthModelController;
 use App\Http\Controllers\StatuslahanController;
-use App\Models\Datarth;
 
 /*
 |--------------------------------------------------------------------------
@@ -48,3 +49,6 @@ Route::resource('/status', StatuslahanController::class)->middleware('auth');
 Route::resource('/desa', DesaController::class)->middleware('auth');
 Route::get('/document', [BerandaController::class, 'dokumen'])->middleware('auth');
 Route::get('/about', [BerandaController::class, 'about'])->middleware('auth');
+Route::get('/hitung', [HitungController::class, 'index'])->middleware('auth');
+Route::get('/hitung/cari', [HitungController::class, 'cari'])->middleware('auth');
+Route::get('/ajax-autocomplete-search', [HitungController::class, 'selectsearch'])->middleware('auth');
